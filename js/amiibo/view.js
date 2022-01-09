@@ -24,7 +24,7 @@ const displayAmiibo = amiibo => {// mostra os amiibos
             }
         }
         if(i !== keys.length - 1){// se nao for a ultima chave
-            releaseText.innerHTML += " / ";// adiciona o texto de lançamento
+            releaseText.innerHTML += " | ";// adiciona o texto de lançamento
         }
     }
     if(amiibo.gamesSwitch){// se tiver um jogo para o switch
