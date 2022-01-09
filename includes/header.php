@@ -37,19 +37,16 @@
                                 </g>
                             </g>
                         </g>
-                    </svg>&nbsp;Amiibo 
+                    </svg>&nbsp;Amiibo
                 </a>
             </li>
         </ul>
         <a id="site-logo" href="index.php"><img src="img/site_logo.svg" alt="Logo Amiibo Viewer"></a>
         <div id="aside-info">
             <div>
-                <span>Copyright © 2021 | Simon Breil</span>
-                <aside>Ce site n'est pas affilié à Nintendo.</aside>
+                <span>Copyright © 2022 | Anderson</span>
+                <aside>Este site não é afiliado à Nintendo.</aside>
             </div>
-            <a id="blog-link" target="_blank" href="https://simonbreil.fr">
-                <img src="img/delphistudio_logo.svg" alt="Logo de DelphiStudio">
-            </a>
         </div>
     </nav>
 </header>
