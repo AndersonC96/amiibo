@@ -1,0 +1,41 @@
+@import url('http://fonts.cdnfonts.com/css/gotham');
+@import "global/variables.css";
+@import "global/animations.css";
+@import "global/header.css";
+@import "global/hamburger.css";
+@import "global/reponsive.css";
+*{
+    font-family: Gotham, Arial, sans-serif;
+    font-weight: 500;
+    color: var(--text);
+    box-sizing: border-box;
+}
+::selection{
+    background-color: transparent;
+}
+hr{
+    opacity: 0.20;
+    margin: 2rem 0;
+    border-color: var(--mid-gray);
+    border-style: solid;
+}
+body{
+    margin: 0;
+}
+h2{
+    color: var(--dark-gray);
+}
+#loading-img{
+    background:
+        url("../img/loading/1.png") no-repeat,
+        url("../img/loading/2.png") no-repeat,
+        url("../img/loading/3.png") no-repeat,
+        url("../img/loading/4.png") no-repeat;
+    height: 129px;
+    animation: loading 2s infinite;
+    animation-timing-function: ease-in-out;
+    margin: 25vh auto;
+}
+.hidden{
+    display: none !important;
+}
