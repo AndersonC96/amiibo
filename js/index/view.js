@@ -18,7 +18,7 @@ const createAmiiboElement = (id, name, gameSeries, image) => {
     amiiboBtn.classList.add("amiibo-btn");// Adicionamos a classe amiibo-btn
     amiiboBtn.setAttribute("href", "amiibo.php?id=" + id);// Definimos o link do botao
     amiiboBtn.appendChild(leftSprinkle);// Adicionamos a imagem da sombra esquerda
-    amiiboBtn.innerHTML += " Voir l'amiibo ";// Adicionamos o texto do botao
+    amiiboBtn.innerHTML += " Veja o amiibo ";// Adicionamos o texto do botao
     amiiboBtn.appendChild(rightSprinkle);// Adicionamos a imagem da sombra direita
     const spriteContainerDiv = document.createElement("div");// Criamos o container do amiibo
     spriteContainerDiv.classList.add("sprite-container");// Adicionamos a classe sprite-container
@@ -43,7 +43,7 @@ const addAmiibos = amiibos => {// Função que adiciona os amiibos à lista
 };
 const updateListTitle = amiiboAmount => {// Função que atualiza o título da lista
     const amiiboListTitleElement = document.getElementById("amiibo-list-title");// Definimos o título da lista
-    amiiboListTitleElement.textContent = `Tous les amiibos (${amiiboAmount})`;// Definimos o texto do título
+    amiiboListTitleElement.textContent = `Todos os amiibos (${amiiboAmount})`;// Definimos o texto do título
 };
 const hideLoading = () => {// Função que esconde o loading
     const loadingImg = document.getElementById("loading-img");// Definimos a imagem de loading
