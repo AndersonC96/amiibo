@@ -1,0 +1,21 @@
+main{
+    background-color: var(--background-gray);
+    background-image: url("../../img/light_amiibo_bg.svg");
+    background-repeat: repeat-x;
+    background-size: 100vw;
+    background-position: 100px 360px;
+    background-attachment: fixed;
+    min-height: 100vh;
+    border-radius: 50px 50px 0 0;
+    padding: 4rem 10vw;
+    animation: moving-bg 120s infinite forwards, fade-in 300ms 1 forwards;
+    animation-timing-function: linear;
+}
+main > h2{
+    margin-bottom: 0;
+}
+.error{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
