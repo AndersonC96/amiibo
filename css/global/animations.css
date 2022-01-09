@@ -1,0 +1,62 @@
+@keyframes loading{
+    0%{
+        transform: translateY(10px);
+        background: url("../../img/loading/1.png") no-repeat center center;
+    }
+    12.5%{
+        transform: translateY(-10px);
+    }
+    25%{
+        transform: translateY(10px);
+        background: url("../../img/loading/2.png") no-repeat center center;
+    }
+    37.5%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(10px);
+        background: url("../../img/loading/3.png") no-repeat center center;
+    }
+    62.5%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(10px);
+        background: url("../../img/loading/4.png") no-repeat center center;
+    }
+    87.5%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+        background: url("../../img/loading/1.png") no-repeat center center;
+    }
+}
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes roll-in{
+    from{
+        opacity: 0;
+        transform-origin: top;
+        transform: perspective(30px) rotateX(-10deg) translateY(2rem);
+    }
+    to{
+        opacity: 1;
+        transform-origin: top;
+        transform: perspective(30px) rotateX(0deg);
+    }
+}
+@keyframes moving-bg{
+    from{
+        background-position-x: 100px;
+    }
+    to{
+        background-position-x: calc(100vw + 100px);
+    }
+}
