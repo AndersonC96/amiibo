@@ -1,8 +1,3 @@
-/*
- * Copyright (c) Simon Breil 2021
- */
-
-// Élément représentant la liste des amiibos
 const amiiboListElement = document.getElementById("amiibo-list");// Pega o elemento da lista de amiibos
 document.addEventListener("DOMContentLoaded", async () => {// Quando o documento estiver carregado
     let isAtBottom = false;// Variavel para saber se estamos no final da lista
