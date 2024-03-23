@@ -15,16 +15,12 @@
         <main>
             <h1>Sobre</h1>
             <p>
-
             </p>
             <p>
-                
             </p>
             <p>
-                
             </p>
             <p>
-                
             </p>
             <hr>
             <p class="signature">Anderson</p>
