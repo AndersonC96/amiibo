@@ -44,7 +44,7 @@
         <a id="site-logo" href="index.php"><img src="img/site_logo.svg" alt="Logo Amiibo Viewer"></a>
         <div id="aside-info">
             <div>
-                <span>Copyright © 2022 | Anderson</span>
+                <span>Copyright © 2024 | Anderson</span>
                 <aside>Este site não é afiliado à Nintendo.</aside>
             </div>
         </div>
